@@ -43,7 +43,7 @@ K tomu aby vše správně fungovalo tak je potřeba nainstalovat balíčky **tki
     reac, prod = balance_stoichiometry(reactants, products)
   ```
   - funkce balance_stoichiometry(reactants, products) nám vrátí dva slovníky `reac` a `prod` obsahující námi hledané koeficienty jednotlivých sloučenin
-  - teď už jen poskládáme naši výslednou rovnici `balanced_equation`
+- nakonec jen poskládáme naši výslednou rovnici `balanced_equation`
   ```python
     coefficients = {**reac, **prod}
     # Create the balanced equation string
